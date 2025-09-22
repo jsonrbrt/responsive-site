@@ -8,8 +8,8 @@ A responsive landing page built with HTML and CSS. This project showcases layout
 - HTML
 - CSS
 
-![Screenshot of homepage] (hero)
-![Screenshot of homepage] (collections_about_us)
+<img src="/hero" href="Screenshot of the hero section of the homepage" />
+<img src="/collections_about_us" href="Screenshot of the collections and about us sections of the homepage" />
 
 ## License
 This project is open source under the MIT License.
