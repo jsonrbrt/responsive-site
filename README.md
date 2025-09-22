@@ -8,7 +8,7 @@ A responsive landing page built with HTML and CSS. This project showcases layout
 - HTML
 - CSS
 
-![Screenshot of homepage] (/hero.png)
+![Screenshot of homepage] (/hero
 ![Screenshot of homepage] (/collections_about_us)
 
 ## License
