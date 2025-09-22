@@ -73,7 +73,7 @@ main {
 
 .order-button {
   padding: 15px 32px;
-  background-color: #fff3ea;
+  background-color: rgb(255 243 234);
   color: #2f191a;
   font-size: larger;
   border: none;
@@ -196,9 +196,9 @@ p {
 }
 
 .contact-us {
-    display: flex;
-    flex-direction: column;
-    margin: 30px;
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
 }
 
 /* Tablet rulesets */
@@ -207,13 +207,13 @@ p {
 
 /* Mobile rulesets */
 @media (max-width: 480px) {
-    header {
-        flex-direction: column;
-    }
-    
-    #nav {
-        justify-content: space-around;
-    }
+  header {
+    flex-direction: column;
+  }
+
+  #nav {
+    justify-content: space-around;
+  }
 
   .collections {
     display: flex;
