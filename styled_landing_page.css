@@ -1,0 +1,263 @@
+/* Desktop rulesets */
+
+header {
+  font-family: helvetica;
+  display: flex;
+  background-color: #fff3ea;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+header img {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+}
+
+#nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 250px;
+}
+
+#nav ul li {
+  list-style: none;
+}
+
+main {
+  background-color: #fff3ea;
+}
+
+.hero-main {
+  background-image: url("sj-YDvfndOs4IQ-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 700px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 20px 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  min-width: auto;
+}
+
+.hero-title,
+.hero-subtitle,
+.hero-text {
+  font-family: helvetica;
+  color: seashell;
+}
+
+.hero-text {
+  font-size: large;
+}
+
+.hero-main img {
+  width: 300px;
+  height: 450px;
+  margin: 20px;
+}
+
+.order-button {
+  padding: 15px 32px;
+  background-color: #fff3ea;
+  color: #2f191a;
+  font-size: larger;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 200ms ease-in-out, box-shadow 200ms ease-in-out;
+}
+
+.order-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.order-button:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.selections {
+  display: flex;
+  flex-direction: column;
+  font-family: helvetica;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  text-align: center;
+}
+
+.collections {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem;
+}
+
+.collections-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.collections-items img {
+  width: 80%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.collections-items img:hover {
+  transform: translateY(-5px);
+}
+
+.collections-items h4,
+p {
+  text-align: center;
+  color: #2f191a;
+}
+
+.collections-items p {
+  font-size: small;
+  color: #2f191a;
+}
+
+.about {
+  font-family: helvetica;
+  text-align: center;
+}
+
+.about img {
+  width: 50%;
+  height: 48%;
+  margin: 30px;
+}
+
+.about-content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 50px;
+}
+
+.about-content p {
+  color: #2f191a;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #450920;
+  font-family: helvetica;
+  color: ghostwhite;
+}
+
+.tagline {
+  margin: 20px;
+}
+
+.tagline h3,
+p {
+  color: ghostwhite;
+}
+
+.quick-links {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quick-links h3 {
+  font-weight: bold;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+/* Tablet rulesets */
+@media (max-width: 768px) {
+}
+
+/* Mobile rulesets */
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+    }
+    
+    #nav {
+        justify-content: space-around;
+    }
+
+  .collections {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .collections-items h4 {
+    margin: 0.5rem;
+  }
+
+  .about-content-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tagline {
+    margin: 2rem 2rem 0rem 2rem;
+    width: 90%;
+  }
+
+  .tagline p {
+    text-align: left;
+  }
+
+  .quick-links {
+    margin: 2rem 2rem 0rem 2rem;
+    text-align: left;
+  }
+
+  .contact-us {
+    margin: 2rem 2rem 0rem 2rem;
+  }
+
+  .contact-us p {
+    text-align: left;
+  }
+}
