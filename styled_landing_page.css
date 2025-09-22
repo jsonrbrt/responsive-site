@@ -105,8 +105,9 @@ main {
 }
 
 .collections {
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
   margin: 2rem;
 }
 
@@ -128,14 +129,13 @@ main {
   transform: translateY(-5px);
 }
 
-.collections-items h4,
-p {
+.collections-items h4,p {
   text-align: center;
   color: #2f191a;
 }
 
 .collections-items p {
-  font-size: small;
+  font-size: medium;
   color: #2f191a;
 }
 
@@ -216,8 +216,7 @@ p {
   }
 
   .collections {
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
 
   .collections-items h4 {
